@@ -1,6 +1,7 @@
 :root {
   --pri-white: #ffffff;
   --primary-color: rgb(212, 59, 81);
+  --primary-red: rgb(255, 56, 92)
 }
 
 .side-bar {
@@ -74,13 +75,18 @@ body {
   z-index: 2000;
 }
 
+.header-menu .nav-link {
+  color: #000;
+  padding-bottom: 21px;
+}
+
 .header ul li {
   display: inline;
   padding-right: 30px;
 }
 
-.header ul li:active {
-  border-right: 2px solid var(--primary-color);
+.active {
+  border-bottom: 3px solid var(--primary-red);
 }
 
 .header-logo img {
@@ -122,6 +128,20 @@ body {
   padding-top: 10px;
 }
 
+.ant-menu-inline-collapsed .ant-menu-item{
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-inline-collapsed .ant-menu-item img {
+  min-width: 20px!important;
+}
+
+.menu-item li {
+  padding-top: 30px!important;
+  padding-bottom: 30px!important;
+}
+
 .ant-menu-item-selected {
   border-right: 2px solid var(--primary-color);
   background-color: #f9f9f9 !important;
@@ -139,11 +159,24 @@ body {
   margin-right: 10px;
 }
 
-.fn {
-  gap: 10px;
+.header-form {
+  align-items: center;
+  display: flex;
 }
 
-.fn input {
+.header-form input::placeholder {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header-form .anywhere-icon {
+  position: absolute;
+  left: 46%;
+  color: rgb(113, 113, 113);
+}
+
+.header-form input {
   outline: var(--primary-color) !important;
 }
 
@@ -157,6 +190,8 @@ body {
   height: 45px;
   border-radius: 10px;
   margin-left: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .guest-icon {
@@ -301,4 +336,12 @@ body {
 .close-large-drawer:hover {
   color: #000!important;
   background-color: var(--pri-white);
+}
+
+.whiteBk .date-range{
+  background-color: #fff!important;
+}
+
+.greyBk .date-range{
+  background-color: #f3f3f2!important;
 }

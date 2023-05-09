@@ -2,13 +2,14 @@ import "./style.css";
 
 import { DatePicker } from "antd";
 
-function DateItem({dateType = 'whiteBk'}) {
+function DateItem({dateType}) {
+
   const onChange = () => {};
 
   return (
     <>
       <DatePicker
-        className="date-range "
+        className="date-range [dateType]" 
         onChange={onChange}
         placeholder={"June 12 - 21"}
       />

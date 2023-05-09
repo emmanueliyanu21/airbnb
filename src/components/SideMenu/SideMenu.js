@@ -19,12 +19,13 @@ const navigate = useNavigate();
         trigger={null}
         collapsible
         collapsed={collapsed}
-        onClick={() => setCollapsed(!collapsed)}
       >
         <div className="logo">
           <Menu
-          className="menu-item"
+            className="menu-item"
             mode="inline"
+            onMouseEnter={() => setCollapsed(false)}
+            onMouseLeave={() => setCollapsed(true)}
             defaultSelectedKeys={["/"]}
             onClick={(item) => {
               navigate(item.key);

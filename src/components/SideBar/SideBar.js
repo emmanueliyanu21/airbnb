@@ -20,14 +20,14 @@ function SideBar({ data }) {
             {data?.rating}
           </p>
         </div>
-        <div className="sidebar-date">
+        <div className="sidebar-date whiteBk">
           <div>
             <p>Check in</p>
-            <DateItem dateType={'whiteBk'} />
+            <DateItem  />
           </div>
-          <div>
+          <div >
             <p>Check out</p>
-            <DateItem dateType={'whiteBk'} />
+            <DateItem  />
           </div>
         </div>
         <div className="sidebar-select">

@@ -77,7 +77,7 @@ function ProductDrawer({ data }) {
           <div className="details-content">
             <Row gutter={16}>
               {details.map((detail, index) => (
-                <Col className="gutter-row detail-content" span={8}>
+                <Col key={index} className="gutter-row detail-content" span={8}>
                   <img src={detail.icon} alt="details" />
                   <h2>{detail.text}</h2>
                   <p>{detail.name}</p>
@@ -101,7 +101,7 @@ function ProductDrawer({ data }) {
               <h2>What this place offers</h2>
               <Row gutter={16} className="row">
                 {icons.map((icon, index) => (
-                  <Col className="gutter-row airbnb-offers" span={8}>
+                  <Col key={index} className="gutter-row airbnb-offers" span={8}>
                     <img src={icon?.icon} alt="bedroom" />
                     <span>{icon.name}</span>
                   </Col>
@@ -120,7 +120,7 @@ function ProductDrawer({ data }) {
             </div>
             <div>
               {progress.map((item, index) => (
-                <div className="progress-content">
+                <div key={index} className="progress-content">
                   <span>{item.name}</span>
                   <Progress percent={item.status} />
                 </div>
@@ -131,7 +131,7 @@ function ProductDrawer({ data }) {
             <div className="first-about-space">
               <Row gutter={16} className="row">
                 {testimonials.map((testimonial, index) => (
-                  <Col className="gutter-row" span={12}>
+                  <Col key={index} className="gutter-row" span={12}>
                     <div className="testimonial-wrapper">
                       <div className="testimonial-header">
                         <img src={testimonial.image} alt="testimonial" />

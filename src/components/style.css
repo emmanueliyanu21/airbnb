@@ -1,9 +1,10 @@
 .date-range {
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: #f3f3f2;
 }
 
-.whiteBk {
-    background-color: #fff!important;
+.date-range:hover {
+    border-color: var(--primary-color);
 }
+
+

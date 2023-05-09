@@ -4,6 +4,8 @@ import Logo from "../../../src/asset/images/Airbnb-logo.jpg";
 
 import Avatar from "../../asset/images/avatar.png";
 
+import { NavLink } from 'react-router-dom';
+
 const { Header } = Layout;
 
 function TopAppHeader() {
@@ -21,12 +23,12 @@ function TopAppHeader() {
           <img src={Logo} alt="img" />
         </div>
         <div>
-          <ul  className="header-menu">
-            <li nz-menu-item nzSelected>
-              Stays
+          <ul className="header-menu">
+            <li>
+              <NavLink className="nav-link" to="/stay">Stays</NavLink>
             </li>
-            <li >Experience</li>
-            <li >Online Experience</li>
+            <li ><NavLink className="nav-link" to="/experience">Experience</NavLink></li>
+            <li ><NavLink className="nav-link" to="/online-experiencee">Online Experience</NavLink></li>
           </ul>
         </div>
         <div>

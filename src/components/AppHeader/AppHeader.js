@@ -8,6 +8,7 @@ import {
   SwitcherOutlined,
   PlusOutlined,
   MinusOutlined,
+  DownOutlined,
 } from "@ant-design/icons";
 
 import { Form } from "antd";
@@ -45,14 +46,17 @@ function AppHeader() {
           <SwitcherOutlined className="app-store bk2" />
         </div>
         <div className="">
-          <Form className="fn">
+          <Form className="header-form">
             <input
               type="text"
               className="anywhere"
               nz-input
               placeholder="Anywhere"
             />
-            <DateItem />
+            <DownOutlined className="anywhere-icon" />
+            <div className="greyBk">
+              <DateItem />
+            </div>
             <span className="header-guest">
               <MinusOutlined className="guest-icon" />
               <span className="text">4 guests</span>

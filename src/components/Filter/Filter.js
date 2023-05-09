@@ -7,7 +7,6 @@ import TypesDetails from "./TypesDetails";
 
 function Filter() {
   const onChange = (e) => {
-    console.log(`checked = ${e.target.checked}`);
   };
 
   return (
