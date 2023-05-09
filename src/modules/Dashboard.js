@@ -41,7 +41,6 @@ function Dashboard() {
               <div className="content-image">
                 <img src={item.image} alt="info" />
               </div>
-              
               <div className="content">
                 <h2 className="content-header">{item.name}</h2>
                 <p className="content-location">{item.location}</p>

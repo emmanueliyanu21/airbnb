@@ -2,7 +2,8 @@
   --pri-white: #ffffff;
   --primary-color: rgb(212, 59, 81);
   --primary-red: rgb(255, 56, 92);
-  --black: #000
+  --black: #000;
+  --grey-bk-color: #f3f3f2
 }
 
 .side-bar {
@@ -114,7 +115,7 @@ body {
 }
 
 .bk2 {
-  background-color: #f3f3f2;
+  background-color: var(--grey-bk-color);
   color: #333333;
 }
 
@@ -151,7 +152,7 @@ body {
 
 .anywhere {
   width: 15rem;
-  background-color: #f3f3f2;
+  background-color: var(--grey-bk-color);
   border: none;
   height: 45px;
   border-radius: 10px;
@@ -186,7 +187,7 @@ body {
 }
 
 .header-guest {
-  background-color: #f3f3f2;
+  background-color: var(--grey-bk-color);
   padding: 15px 10px;
   height: 45px;
   border-radius: 10px;
@@ -216,12 +217,13 @@ body {
 
 .content-icon-heart {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 15px;
+  right: 25px;
   background-color: var(--pri-white);
   padding: 10px 12px;
   border-radius: 100px;
   font-size: 16px;
+  transition: background-color 0.5s ease;
 }
 
 .content-icon-heart:hover {
@@ -312,7 +314,7 @@ body {
 }
 
 .ant-picker-input>input::placeholder {
-  color: #000!important;
+  color: var(--black)!important;
 }
 
 .ant-layout-sider-children {
@@ -350,7 +352,7 @@ body {
 }
 
 .close-large-drawer:hover {
-  color: #000!important;
+  color: var(--black)!important;
   background-color: var(--pri-white);
 }
 
@@ -359,7 +361,8 @@ body {
 }
 
 .greyBk .date-range{
-  background-color: #f3f3f2!important;
+  background-color: var(--grey-bk-color)!important;
+  border: 1px solid var(--grey-bk-color);
 }
 
 .ant-menu-light .ant-menu-root .ant-menu-vertical {
