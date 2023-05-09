@@ -50,7 +50,6 @@ function AppHeader() {
             <input
               type="text"
               className="anywhere"
-              nz-input
               placeholder="Anywhere"
             />
             <DownOutlined className="anywhere-icon" />

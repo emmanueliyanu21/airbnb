@@ -1,4 +1,4 @@
-import { StarFilled, CloseCircleFilled } from "@ant-design/icons";
+import { StarFilled, CloseCircleFilled, HeartOutlined } from "@ant-design/icons";
 
 import { useState } from "react";
 
@@ -37,9 +37,11 @@ function Dashboard() {
               className="content-wrapper"
               key={index}
             >
+              <div className="content-icon-heart"><HeartOutlined /></div>
               <div className="content-image">
                 <img src={item.image} alt="info" />
               </div>
+              
               <div className="content">
                 <h2 className="content-header">{item.name}</h2>
                 <p className="content-location">{item.location}</p>
