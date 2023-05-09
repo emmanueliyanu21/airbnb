@@ -1,0 +1,127 @@
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  padding: 12px 0px 15px 0px;
+}
+
+.filter-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.filter-wrapper h2 {
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(17, 17, 17);
+  margin-bottom: 5px;
+}
+
+.filter-wrapper p {
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(113, 113, 113);
+  margin-top: 0px;
+}
+
+.filter-header button {
+  border: none;
+  color: var(--primary-color);
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.filter-header button:hover {
+  color: var(--primary-color) !important;
+}
+
+.filter-input {
+  display: flex;
+  gap: 5px;
+}
+
+.filter-input p {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(113, 113, 113);
+  margin-bottom: 5px;
+}
+
+.filter-input input {
+  height: 40px;
+  border-radius: 12px;
+}
+
+.filter-input input::placeholder {
+  color: rgb(17, 17, 17);
+}
+
+.filter-input {
+  padding: 12px 0px;
+}
+
+.filter-content-wrapper {
+  border-bottom: 1px solid #ececec;
+  padding: 5px 0px 15px;
+}
+
+.filter-room-type {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 19px;
+}
+
+.filter-types {
+  padding-bottom: 30px;
+}
+
+.filter-room-type h2 {
+  margin-top: -1.5px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.filter-button {
+  background: linear-gradient(
+    95.006deg,
+    rgb(211, 59, 80) 0%,
+    rgb(198, 47, 101) 100%
+  );
+  border-radius: 12px;
+  opacity: 0.6;
+  display: block;
+  color: #fff;
+  height: 50px;
+  width: 350px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.filter-bottom-content {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0px 30px;
+}
+
+.filter-type-details {
+  padding-top: 10px;
+}
+
+.filter-type-details span {
+  padding-right: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ececec;
+  border-radius: 50px;
+  margin-right: 6px;
+}
+
+.filter-type-details span:first-child {
+  background-color: black;
+  color: #fff;
+}

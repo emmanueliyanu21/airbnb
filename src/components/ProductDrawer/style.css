@@ -1,0 +1,316 @@
+.drawer-content {
+  padding-right: 30px;
+}
+
+.first-about-space,
+.second-about-space,
+.detail-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(113, 113, 113);
+}
+
+.first-about-space h2 {
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(17, 17, 17);
+}
+
+.first-about-space {
+  padding-bottom: 10px;
+}
+
+.second-about-space h2 {
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+}
+
+.second-about-space p {
+  padding-bottom: 10px;
+}
+
+.link {
+  color: rgb(211, 59, 80) !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about-space,
+.detail-content {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 40px;
+}
+
+.about-space {
+  padding-top: 30px;
+}
+
+.details-content {
+  border-top: 1px solid #ececec;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+
+.detail-content img {
+  width: 100%;
+  max-width: 30%;
+  margin-left: -4px;
+}
+
+.detail-content h2 {
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+}
+
+.testimonial-wrapper {
+  border-radius: 25px;
+  border: 1px solid #ececec;
+  padding: 20px 30px 30px 20px;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.testimonial-header {
+  display: flex;
+}
+
+.testimonial-header img {
+  width: 4rem;
+  height: 4.1rem;
+  margin-right: 10px;
+}
+
+.testimonial-header span p {
+  margin: 0px !important;
+  padding-top: 6px;
+}
+
+.testimonial-header span p:first-child {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 1);
+}
+
+.testimonial-header {
+  padding-bottom: 15px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.progress-header h2 {
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(17, 17, 17);
+}
+
+.progress-content {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding-bottom: 10px;
+}
+
+.progress-content span {
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(17, 17, 17);
+}
+
+.ant-progress .ant-progress-bg {
+  background-color: rgb(211, 59, 80);
+}
+
+.progress-wrapper {
+  border: 1px solid #ececec;
+  margin: 50px 0px 20px 0px;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+.host-detail {
+  display: flex;
+}
+
+.host-detail p {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.host-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.host-wrapper {
+  padding-top: 20px;
+}
+
+.host-button .button
+
+/* product details */
+.product-details-header h2 {
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgb(17, 17, 17);
+  margin-bottom: 0px;
+}
+
+.product-details-header p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(113, 113, 113);
+}
+
+.product-details .button {
+  position: absolute;
+  margin-top: -1.8rem;
+  padding: 0px 15px;
+  height: 36px;
+  border-radius: 12px;
+  border-color: rgba(17, 17, 17, 0.1);
+}
+
+.product-details .button:hover {
+  color: rgb(211, 59, 80) !important;
+  border-color: rgb(211, 59, 80) !important;
+}
+
+.product-image-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image-icon {
+  display: flex;
+  gap: 10px;
+  margin-top: -12px;
+}
+
+.product-image-icon span {
+  background-color: rgb(236, 236, 236);
+  color: black;
+  padding: 6px;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.drawer-main-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.side img {
+  height: 45%;
+  object-fit: cover;
+}
+
+.first-image {
+  width: 98%;
+  height: 474px;
+  max-width: fit-content;
+}
+
+.image-content-header button {
+  position: absolute;
+  margin-top: -3.8rem;
+  left: 17px;
+  height: 40px;
+  padding: 0px 20px;
+  border-radius: 15px;
+}
+
+.image-content-header button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(212, 59, 81) !important;
+  border: 1px solid rgb(243, 232, 234) !important;
+}
+
+.button .icon {
+  color: rgb(212, 59, 81) !important;
+}
+
+.room-details {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 20px;
+}
+
+.room-details div {
+  display: flex;
+  align-items: center;
+}
+
+.room-details img {
+  width: 1.8rem;
+}
+
+.room-details span {
+  margin-right: 30px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  margin-top: 3px;
+}
+
+.airbnb-offers {
+  display: flex;
+  align-items: center;
+}
+
+.airbnb-offers img {
+  width: 32px;
+}
+
+.airbnb-offers {
+  padding-bottom: 30px;
+}
+
+.first-about-space .row {
+  padding-top: 10px;
+}
+
+.testimonial-content .row {
+  padding-bottom: 20px;
+}
+
+.testimonial-content {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 30px;
+}
+
+.location-wrapper iframe {
+  border-radius: 20px;
+}
+
+.location-wrapper h2:first-child {
+  padding-bottom: 15px;
+}
+
+.host-detail-icon {
+  color: black;
+  padding-right: 10px;
+}
+
+.host-button button:hover {
+  color: rgb(212, 59, 81) !important;
+  border: 1px solid rgb(212, 59, 81) !important;
+}
