@@ -35,7 +35,7 @@ function AppHeader() {
   return (
     <>
       <Header
-        className="header"
+        className="header sticky-header"
         style={{
           margin: 0,
           background: colorBgContainer,

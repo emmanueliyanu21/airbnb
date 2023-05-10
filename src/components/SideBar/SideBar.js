@@ -34,13 +34,13 @@ function SideBar({ data }) {
           <div>
             <p>Guests</p>
             <Select
-              defaultValue="1 Guests"
+              defaultValue="1 guests"
               size="large"
               style={{
                 width: 300,
                 display: "block",
               }}
-              placeholder="1 Guests"
+              placeholder="1 guests"
               options={[
                 {
                   value: "1",

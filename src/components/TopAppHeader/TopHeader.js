@@ -13,7 +13,7 @@ function TopAppHeader() {
   return (
     <>
     <Header
-        className="header"
+        className="header top-header-wrapper"
         style={{
           margin: 0,
           background: colorBgContainer,
@@ -25,7 +25,7 @@ function TopAppHeader() {
         <div>
           <ul className="header-menu">
             <li>
-              <NavLink className="nav-link" to="/stay">Stays</NavLink>
+              <NavLink className="nav-link active" to="/stay">Stays</NavLink>
             </li>
             <li ><NavLink className="nav-link" to="/experience">Experience</NavLink></li>
             <li ><NavLink className="nav-link" to="/online-experiencee">Online Experience</NavLink></li>
